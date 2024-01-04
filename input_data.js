@@ -28,7 +28,7 @@ function prosesStatus() {
       "</h2>" +
       "<h2>Status: " +
       status +
-      "</h2>"+
+      "</h2>" +
     "<h2>Grade: " +
      grade +
       "</h2>"
