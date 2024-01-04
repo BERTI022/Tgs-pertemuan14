@@ -9,6 +9,12 @@ function prosesStatus() {
   } else {
     status = "TIDAK LULUS";
   }
+    var grade = "";
+  if (nilai >= 80) {
+    grade = "A";
+  } else {
+    grade = "E";
+  }
 
   document.write(
     "<h2>NPM: " +
@@ -22,19 +28,11 @@ function prosesStatus() {
       "</h2>" +
       "<h2>Status: " +
       status +
+      "</h2>"+
+    "<h2>Grade: " +
+     grade +
       "</h2>"
   );
 }
 
-function prosesGrade() {
-  var nilai = parseFloat(document.getElementById("nilai").value);
 
-  var grade = "";
-  if (nilai >= 80) {
-    grade = "A";
-  } else {
-    grade = "E";
-  }
-
-  document.write("<h2>Grade: " + grade + "</h2>");
-}
