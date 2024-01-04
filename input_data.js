@@ -1,6 +1,6 @@
 function prosesStatus() {
-  var npm = document.getElementById("npm").value;
   var nama = document.getElementById("nama").value;
+  var npm = document.getElementById("npm").value;
   var nilai = document.getElementById("nilai").value;
 
   var status = "";
