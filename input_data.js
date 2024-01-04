@@ -17,11 +17,11 @@ function prosesStatus() {
   }
 
   document.write(
+     "<h2>Nama: " +
+      nama +
+      "</h2>" +
     "<h2>NPM: " +
       npm +
-      "</h2>" +
-      "<h2>Nama: " +
-      nama +
       "</h2>" +
       "<h2>Nilai: " +
       nilai +
